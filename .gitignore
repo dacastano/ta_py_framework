@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / package files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.*env/
+.venv/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Dependency directories
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Logs and debug files
+logs/
+*.log
+debug.log
+
+# Test reports & coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+*.hypothesis/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# Docker / Kubernetes (if applicable)
+docker-compose.override.yml
+.envrc
+*.dockerfile
+
+# Secrets / Config files (if applicable)
+config.yaml
+config.json
+.env.local
+secrets/
+
+# Pytest-specific
+pytestdebug.log
