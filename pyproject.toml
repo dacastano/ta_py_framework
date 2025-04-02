@@ -11,7 +11,3 @@ dependencies = [
     "selenium>=4.7.0",          # Add selenium version
     "webdriver-manager>=3.8.5"   # Add webdriver manager for managing browser drivers
 ]
-
-# Specify the source directories
-[tool.setuptools.packages]
-find = {where = ["framework"]}  # This will include everything in the 'framework' directory
