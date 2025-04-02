@@ -14,4 +14,4 @@ dependencies = [
 
 # Specify the source directories
 [tool.setuptools.packages]
-find = {where = ["ta_py_framework"]}  # This will include everything in the 'framework' directory
+find = {where = ["framework"]}  # This will include everything in the 'framework' directory
