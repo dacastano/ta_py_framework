@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ta_py_framework"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
     "pytest",
     "requests",
