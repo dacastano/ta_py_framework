@@ -8,4 +8,6 @@ version = "0.1.0"
 dependencies = [
     "pytest",
     "requests",
+    "selenium>=4.7.0",          # Add selenium version
+    "webdriver-manager>=3.8.5"   # Add webdriver manager for managing browser drivers
 ]
